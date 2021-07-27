@@ -7,5 +7,5 @@ module.exports = function(app){
     app.put("/api/edit/:_id", PetController.editOnePet);
     app.delete("/api/:_id", PetController.deleteSinglePet);
     app.get("/api/single/:_id", PetController.getSinglePet)
-    
+    app.get("/api/search")
 }
